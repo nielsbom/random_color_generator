@@ -1,0 +1,12 @@
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colors div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}

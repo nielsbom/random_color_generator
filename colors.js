@@ -1,3 +1,17 @@
+// import random
+// import math
+// def random_color():
+//     return [random.randint(0, 255) for _ in range(3)]
+// # "Zoals de vogel vliegt"
+// def euclidean_distance(a, b):
+//     return math.sqrt(sum([(x - y)**2 for x, y in zip(a, b)]))
+// # Zoals je moet rijden in Manhattan (over een raster)
+// def manhattan_distance(a, b):
+//     return sum([abs(x-y) for x, y in zip(a, b)])
+// colors = (random_color(), random_color())
+// print(euclidean_distance(*colors))
+// print(manhattan_distance(*colors))
+
 const getColorComponentIntensity = () => Math.floor(Math.random() * 255);
 
 const getColor = () => [
